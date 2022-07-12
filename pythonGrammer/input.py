@@ -82,23 +82,52 @@ print(a + b)
 # else:
 #     print(11)
 
-n = int(input('숫자를 입력해주세요 : '))
+# n = int(input('숫자를 입력해주세요 : '))
+#
+# for i in range(1, n + 1):
+#     if i % 2 == 1:
+#         print(i)
+#
+# print('====================')
+#
+# sum = 0
+#
+# for i in range(1, n + 1):
+#     sum += i
+#
+# print(sum)
+#
+# print('====================')
+#
+# for i in range(1, n + 1):
+#     if n % i == 0:
+#         print(i, end=' ')
 
-for i in range(1, n + 1):
-    if i % 2 == 1:
-        print(i)
+# for i in range(5):
+#     print('i : ', i, sep='', end=' ')
+#     for j in range(5):
+#         print('j : ', j, sep='', end=' ')
+#     print()
 
-print('====================')
+# for i in range(5):
+#     for j in range(5):
+#         print('*', end=' ')
+#     print()
 
-sum = 0
+# for i in range(5):
+#     for j in range(i+1):
+#         print('*', end=' ')
+#     print()
 
-for i in range(1, n + 1):
-    sum += i
+# for i in range(5):
+#     for j in range(5-i):
+#         print("*", end=' ')
+#     print()
 
-print(sum)
-
-print('====================')
-
-for i in range(1, n + 1):
-    if n % i == 0:
-        print(i, end=' ')
+msg = "It is Time"
+print(msg.upper())
+print(msg.lower())
+print(msg)
+tmp = msg.upper()
+print(tmp)
+print(tmp.find('T'))
