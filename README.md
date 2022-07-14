@@ -50,3 +50,21 @@ for i in range(5):
 else:
     print("반복문이 정상적으로 완료되었습니다.")
 ```
+
+4. 삼항 연산자
+```java
+Type 변수명 = 조건 ? 참 : 거짓;
+
+int a = 10;
+int b = 20;
+
+int c = b >= a ? 100 : 200;
+System.out.println(c) // c = 100 
+```
+
+```python
+a = 10
+b = 20
+c = 100 if b >= a else 200
+print(c) # c = 100
+```
