@@ -4,6 +4,8 @@
 
 python을 이용한 알고리즘 학습
 
+- 백준 문제 풀이
+
 ---
 
 - Java vs Python 문법 차이
